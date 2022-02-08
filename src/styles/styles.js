@@ -9,7 +9,8 @@ const styles = {
     linkNavBar: {
         marginLeft:20,
         marginRight:20,
+        textDecoration:"none",
     },
-}
+};
 
 export default styles;
