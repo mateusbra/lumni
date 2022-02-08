@@ -1,6 +1,14 @@
 const styles = {
-    h1: {
-      
+    containerNavBar: {
+        display:"flex",
+        alignItems:"center",
+        width:"100%",
+        height:50,
+        justifyContent:"center",
+    },
+    linkNavBar: {
+        marginLeft:20,
+        marginRight:20,
     },
 }
 
