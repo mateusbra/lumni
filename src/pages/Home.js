@@ -9,10 +9,10 @@ function Home() {
     <>
         <div style={styles.containerNavBar}>
             <div style={{marginLeft:"20%"}}>
-                <a href="#" style={styles.linkNavBar}>Home</a>
-                <a href="#" style={styles.linkNavBar}>Text</a>
-                <a href="#" style={styles.linkNavBar}>Text</a>
-                <a href="#" style={styles.linkNavBar}>Text</a>
+                <a href="#Home" style={styles.linkNavBar}>Home</a>
+                <a href="#Text" style={styles.linkNavBar}>Text</a>
+                <a href="#Text" style={styles.linkNavBar}>Text</a>
+                <a href="#Text" style={styles.linkNavBar}>Text</a>
             </div>
         </div>
         <Category title={texts.title.identidadeVisual} subtitle={texts.subtitle.identidadeVisual} content={texts.content.identidadeVisual} textSide={"left"}/>
