@@ -11,6 +11,11 @@ const styles = {
         marginRight:20,
         textDecoration:"none",
     },
+    divider: {
+        height:20,
+        width:"100%",
+        backgroundColor:"#002a40",
+    },
 };
 
 export default styles;
