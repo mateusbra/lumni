@@ -1,3 +1,12 @@
+const colors = {
+    orange:"#F26241",
+    salmon:"#F2AA80",
+    beige:"#F2C288",
+    pink:"#BF455B",
+    maroon:"#40061B",
+    gray:"#808080",
+}
+
 const styles = {
     colors: {
         orange:"#F26241",
@@ -5,6 +14,7 @@ const styles = {
         beige:"#F2C288",
         pink:"#BF455B",
         maroon:"#40061B",
+        gray:"#3F3F3F",
     },
     containerNavBar: {
         display:"flex",
@@ -24,6 +34,17 @@ const styles = {
         width:"100%",
         backgroundColor:"#002a40",
     },
+    homeButton: {
+        backgroundColor:colors.beige,
+        cursor:"pointer",
+        borderRadius:30,
+        borderColor:colors.gray,
+        border:`1px solid ${colors.gray}`,
+        fontSize:25,
+        color:"#07091d",
+        padding:"9px 28px",
+        borderStyle:"solid",
+    }
 };
 
 export default styles;
