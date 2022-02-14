@@ -3,25 +3,27 @@ import React from "react";
 //import Category from "../components/Category";
 //import texts from "../texts/texts";
 import Navbar from "../components/NavBar";
-import FirstPage from "../components/FirstPage";
-import SecondPage from "../components/SecondPage";
-import ThirdPage from "../components/ThirdPage";
-import FourthPage from "../components/FourthPage";
-import FifthPage from "../components/FifthPage";
-import SixthPage from "../components/SixthPage";
-import SeventhPage from "../components/SeventhPage";
+import LightHouse from "../components/LightHouse";
+import LightHouse2 from "../components/LightHouse2";
+import LightHouse3 from "../components/LightHouse3";
+import Services from "../components/Services";
+import SocialMedia from "../components/SocialMedia";
+import Influencer from "../components/Influencer";
+import Custom from "../components/Custom";
+import Portfolio from "../components/Portfolio";
 
 function Home() {
   return (
     <>
       <Navbar />
-      <FirstPage />
-      <SecondPage />
-      <ThirdPage />
-      <FourthPage />
-      <FifthPage />
-      <SixthPage />
-      <SeventhPage />
+      <LightHouse />
+      <LightHouse2 />
+      <LightHouse3 />
+      <Services />
+      <SocialMedia />
+      <Influencer />
+      <Custom />
+      <Portfolio />
     </>
   );
 }

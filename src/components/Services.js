@@ -1,20 +1,20 @@
 import React from "react";
-import personalizados from "../assets/personalizados.png";
+import idVisual from "../assets/idvisual.png";
 import styles from "../styles/styles";
 
-function SeventhPage(){
+function Services(){
     return(
-        <div style={{display:"flex",alignItems:"center",justifyContent:"center",width:"100%",backgroundColor:"#ef6743"}}>
+        <div id="Servicos" style={{display:"flex",alignItems:"center",justifyContent:"center",width:"100%",backgroundColor:styles.colors.orange}}>
             <div style={{display:"inline-flex",width:1366,height:728}}>
-                <img src={personalizados} alt={"Personalizados"} style={{height:728,width:728,float:"left"}} />
-            <div style={{marginTop:100,marginRight:70}}>
-                <div style={{color:"#07091d",fontWeight:"bolder",fontSize:70}}>Personalizados</div>
+            <div style={{marginTop:100,marginLeft:70}}>
+                <div style={{color:"#07091d",fontWeight:"bolder",fontSize:70}}>Identidade Visual</div>
                 <div style={{marginTop:45,color:"white",fontSize:30,maxWidth:520}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate solicitudin tellus, in interdum sem facilisis ut. Fusce sit amet orci ipsum. Etiam eget convallis mauris. Proin id</div>
                 <button style={{...styles.homeButton,marginTop:30}}>VAMOS COMEÇAR</button>
-              </div>
+            </div>
+                <img src={idVisual} alt={"Identidade Visual"} style={{height:728,width:728,float:"right"}} />
             </div>
     </div>
     );
 }
 
-export default SeventhPage;
+export default Services;

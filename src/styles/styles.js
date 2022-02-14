@@ -44,6 +44,12 @@ const styles = {
         color:"#07091d",
         padding:"9px 28px",
         borderStyle:"solid",
+    },
+    lightHouseContainer: {
+        margin:"auto",
+        display:"block",
+        height:768,
+        width:1366,
     }
 };
 

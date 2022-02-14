@@ -2,7 +2,7 @@ import React from "react";
 import influencer from "../assets/influencer.png";
 import styles from "../styles/styles";
 
-function SixthPage(){
+function Influencer(){
     return(
         <div style={{display:"flex",alignItems:"center",justifyContent:"center",width:"100%",backgroundColor:styles.colors.orange}}>
             <div style={{display:"inline-flex",width:1366,height:728}}>
@@ -17,4 +17,4 @@ function SixthPage(){
     );
 }
 
-export default SixthPage;
+export default Influencer;
