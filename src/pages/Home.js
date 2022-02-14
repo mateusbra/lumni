@@ -1,26 +1,17 @@
 import React from "react";
-import styles from "../styles/styles";
-import Category from "../components/Category";
-import texts from "../texts/texts";
-import Divider from "../components/Divider";
+//import styles from "../styles/styles";
+//import Category from "../components/Category";
+//import texts from "../texts/texts";
+import Navbar from "../components/NavBar";
+import FirstPage from "../components/FirstPage";
+import SecondPage from "../components/SecondPage";
 
 function Home() {
   return (
     <>
-        <div style={styles.containerNavBar}>
-            <div style={{marginLeft:"20%"}}>
-                <a href="#Home" style={styles.linkNavBar}>Home</a>
-                <a href="#Text" style={styles.linkNavBar}>Text</a>
-                <a href="#Text" style={styles.linkNavBar}>Text</a>
-                <a href="#Text" style={styles.linkNavBar}>Text</a>
-            </div>
-        </div>
-        <Category title={texts.title.identidadeVisual} subtitle={texts.subtitle.identidadeVisual} content={texts.content.identidadeVisual} textSide={"left"}/>
-        <Divider />
-        <Category title={texts.title.identidadeVisual} subtitle={texts.subtitle.identidadeVisual} content={texts.content.identidadeVisual} textSide={"right"}/>
-        <Divider />
-        <Category title={texts.title.identidadeVisual} subtitle={texts.subtitle.identidadeVisual} content={texts.content.identidadeVisual} textSide={"left"}/>
-        <Divider />
+        <Navbar />
+        <FirstPage />
+        <SecondPage />
     </>
   );
 }
