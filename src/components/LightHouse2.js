@@ -4,7 +4,7 @@ import styles from "../styles/styles";
 
 function LightHouse2(){
     return(
-      <div style={{width:"100%",height:768,backgroundColor:"#000f40"}}>
+      <div style={{width:"100%",height:768,backgroundColor:"#071d34"}}>
         <div style={{...styles.lightHouseContainer,backgroundImage:`url(${Lighthouse2})`,backgroundSize:"cover"}}>
           <div style={{marginRight:100}}>
               <div style={{display:"flex",flexDirection:"column",alignItems:"flex-end"}}>

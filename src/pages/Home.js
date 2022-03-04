@@ -11,6 +11,8 @@ import SocialMedia from "../components/SocialMedia";
 import Influencer from "../components/Influencer";
 import Custom from "../components/Custom";
 import Portfolio from "../components/Portfolio";
+import About from "../components/About";
+import Instagram from "../components/Instagram";
 
 function Home() {
   return (
@@ -24,6 +26,8 @@ function Home() {
       <Influencer />
       <Custom />
       <Portfolio />
+      <About />
+      <Instagram />
     </>
   );
 }
