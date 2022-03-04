@@ -9,7 +9,7 @@ function LightHouse3(){
             <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
                 <div style={{marginTop:100,maxWidth:1040}}>
                     <div style={{color:"white",textAlign:"center",fontSize:30}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate solicitudin tellus, in interdum sem facilisis ut. Fusce sit amet orci ipsum. Etiam eget convallis mauris. Proin id gravida im. Aenean mollis leo ut eros suscipit malesuada. Sed quis augue et valit facilisis semper a nec dolor. Integer</div>
-                    <button style={{...styles.homeButton,display:"flex",margin:"245px auto 0"}}>VAMOS COMEÇAR</button>
+                    <button style={{...styles.homeButton,display:"flex",margin:"200px auto 0"}}>VAMOS COMEÇAR</button>
                 </div>
             </div>
         </div>
