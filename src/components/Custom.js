@@ -4,7 +4,7 @@ import styles from "../styles/styles";
 
 function Custom(){
     return(
-        <div style={{display:"flex",alignItems:"center",justifyContent:"center",width:"100%",backgroundColor:"#ef6743"}}>
+        <div style={{display:"flex",alignItems:"center",justifyContent:"center",width:"100%",backgroundColor:"#f56944"}}>
             <div style={{display:"inline-flex",width:1366,height:728}}>
                 <img src={personalizados} alt={"Personalizados"} style={{height:728,width:728,float:"left"}} />
             <div style={{marginTop:100,marginRight:70}}>

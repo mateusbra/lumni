@@ -50,6 +50,13 @@ const styles = {
         display:"block",
         height:768,
         width:1366,
+    },
+    aboutContainer: {
+        margin:"auto",
+        display:"block",
+        height:650,
+        backgroundPositionX:-900,
+        backgroundPositionY:-210,
     }
 };
 
