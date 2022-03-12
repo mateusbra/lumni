@@ -4,7 +4,7 @@ import styles from "../styles/styles";
 
 function About(){
     return(
-      <div style={{width:"100%",height:650,backgroundColor:"#000f40"}}>
+      <div style={{width:"100%",height:768,backgroundColor:"#000f40"}}>
         <div style={{...styles.aboutContainer,backgroundImage:`url(${Sobre})`}}>
           <div style={{display:"flex",alignItems:"center",justifyContent:"center",marginLeft:340}}>
               <div style={{display:"flex",flexDirection:"column",alignItems:"flex-end"}}>

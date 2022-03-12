@@ -5,8 +5,8 @@ import styles from "../styles/styles";
 
 function Instagram(){
     return(
-      <div style={{width:"100%",height:768,backgroundColor:"#000f40"}}>   
-        <div style={{...styles.lightHouseContainer,backgroundImage:`url(${Fundo})`,alignSelf:"center"}}>
+      <div style={{width:"100%",height:768,backgroundColor:"#000f40",backgroundImage:`url(${Fundo})`}}>   
+        <div style={{...styles.lightHouseContainer,alignSelf:"center"}}>
               <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
                   <div style={{color:styles.colors.orange,fontWeight:900,fontSize:70,marginTop:50}}>Nos acompanhe no Instagram</div>
                   <div style={{marginTop:30,color:"white",fontSize:50}}>e fique por dentro do mundo do marketing digital</div>

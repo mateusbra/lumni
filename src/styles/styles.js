@@ -54,9 +54,10 @@ const styles = {
     aboutContainer: {
         margin:"auto",
         display:"block",
-        height:650,
-        backgroundPositionX:-900,
-        backgroundPositionY:-210,
+        height:768,
+        width:"100%",
+        backgroundSize:"100% 768px",
+        backgroundRepeat: "no-repeat",
     }
 };
 
