@@ -13,6 +13,7 @@ import Custom from "../components/Custom";
 import Portfolio from "../components/Portfolio";
 import About from "../components/About";
 import Instagram from "../components/Instagram";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
       <Portfolio />
       <About />
       <Instagram />
+      <Footer />
     </>
   );
 }

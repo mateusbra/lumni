@@ -23,6 +23,12 @@ const styles = {
         height:70,
         justifyContent:"space-between",
     },
+    containerFooter: {
+        display:"flex",
+        alignItems:"center",
+        width:"100%",
+        height:70,
+    },
     linkNavBar: {
         marginLeft:20,
         marginRight:20,
