@@ -9,7 +9,7 @@ function LightHouse(){
           <div style={{marginLeft:100}}>
               <div style={{display:"flex",flexDirection:"column"}}>
                 <div style={{marginTop:200,width:500}}>
-                  <div style={{color:styles.colors.orange,fontWeight:"bolder",fontSize:70}}>CRIATIVIDADE TRANSFORMA SUA EMPRESA</div>
+                  <div style={{color:styles.colors.orange,fontSize:70,fontFamily:"FFGoodPro-Bold"}}>CRIATIVIDADE TRANSFORMA SUA EMPRESA</div>
                   <button style={{...styles.homeButton,marginTop:80}}>VAMOS COMEÇAR</button>
                 </div>
               </div>

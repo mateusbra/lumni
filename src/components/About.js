@@ -5,7 +5,10 @@ import styles from "../styles/styles";
 function About(){
     return(
       <div style={{width:"100%",height:768,backgroundColor:"#000f40"}}>
-        <div style={{...styles.aboutContainer,backgroundImage:`url(${Sobre})`}}>
+        <div style={{...styles.aboutContainer,backgroundImage:`url(${Sobre})`,backgroundAttachment: "fixed",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "2000px 1000px"}}>
           <div style={{display:"flex",alignItems:"center",justifyContent:"center",marginLeft:340}}>
               <div style={{display:"flex",flexDirection:"column",alignItems:"flex-end"}}>
                 <div style={{marginTop:100,maxWidth:700}}>

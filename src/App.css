@@ -1,3 +1,17 @@
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+
+  font-family: 'FFGoodPro-Bold' ;
+  src: url('fonts/FFGoodPro-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+
+  font-family: 'FFGoodPro-Medium' ;
+  src: url('fonts/FFGoodPro-Medium.ttf') format('truetype');
+
+}
