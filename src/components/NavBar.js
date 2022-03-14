@@ -4,6 +4,7 @@ import Logo from "../assets/logo.png";
 
 function Navbar(){
     //b
+    //c
     return(
         <div style={styles.containerNavBar}>
             <div style={{marginLeft:"7%"}}>
