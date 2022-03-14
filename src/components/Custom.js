@@ -9,7 +9,7 @@ function Custom(){
                 <img src={personalizados} alt={"Personalizados"} style={{height:728,width:728,float:"left"}} />
             <div style={{marginTop:100,marginRight:70}}>
                 <div style={{color:"#07091d",fontWeight:"bolder",fontSize:70}}>Personalizados</div>
-                <div style={{marginTop:45,color:"white",fontSize:30,maxWidth:520}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate solicitudin tellus, in interdum sem facilisis ut. Fusce sit amet orci ipsum. Etiam eget convallis mauris. Proin id</div>
+                <div style={{marginTop:45,color:"white",fontSize:30,maxWidth:520}}>Já possui um projeto em andamento ou deseja criar algo totalmente novo? Conta um pouco mais pra gente! Estamos aqui para tornar seus objetivos em realidade.</div>
                 <button style={{...styles.homeButton,marginTop:30}}>FAÇA SEU ORÇAMENTO</button>
               </div>
             </div>

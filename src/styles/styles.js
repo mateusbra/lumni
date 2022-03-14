@@ -65,6 +65,14 @@ const styles = {
         backgroundSize:"cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition:"center center",
+    },
+    socialMediaBar: {
+        display: "block",
+        textAlign: "center",
+        padding: 16,
+        transition: "all 0.3s ease",
+        color: "white",
+        fontSize: 20,
     }
 };
 

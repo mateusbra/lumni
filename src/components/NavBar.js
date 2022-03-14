@@ -15,7 +15,7 @@ function Navbar(){
                 <a href="#Servicos" style={styles.linkNavBar}>Serviços</a>
                 <a href="#Portfolio" style={styles.linkNavBar}>Portfólio</a>
                 <a href="#Contato" style={styles.linkNavBar}>Contato</a>
-                <a href="#Loja" style={styles.linkNavBar}>Loja</a>
+                {/*<a href="#Loja" style={styles.linkNavBar}>Loja</a>*/}
             </div>
         </div>
     );

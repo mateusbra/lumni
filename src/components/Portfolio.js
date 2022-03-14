@@ -6,7 +6,7 @@ import styles from "../styles/styles";
 
 function Portfolio(){
     return(
-        <div style={{width:"100%",height:950,backgroundColor:"#000f40"}}>
+        <div id="Portfolio" style={{width:"100%",height:950,backgroundColor:"#000f40"}}>
             <div style={{width:1366,height:850,margin:"auto",backgroundColor:"red"}}>
                 <div style={{display:"flex",flexDirection:"column"}}>
                     <div style={{display:"flex",flex:1}}>
@@ -19,7 +19,7 @@ function Portfolio(){
                     </div>
                 </div>
             </div>
-                <button onClick={() => {window.location.href = "https://www.behance.net/studiolumni"}} style={{...styles.homeButton,fontWeight:"bolder",padding:"5px 28px",backgroundColor:styles.colors.orange,borderStyle:"none",margin:"32px auto",display:"flex"}}>VER TODO O PORTFÓLIO</button>
+                <button onClick={() => {window.open("https://www.behance.net/studiolumni", '_blank').focus()}} style={{...styles.homeButton,fontWeight:"bolder",padding:"5px 28px",backgroundColor:styles.colors.orange,borderStyle:"none",margin:"32px auto",display:"flex"}}>VER TODO O PORTFÓLIO</button>
         </div>
     );
 }

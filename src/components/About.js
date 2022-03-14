@@ -10,7 +10,7 @@ function About(){
               <div style={{display:"flex",flexDirection:"column",alignItems:"flex-end"}}>
                 <div style={{marginTop:100,maxWidth:700}}>
                   <div style={{color:"#07091d",fontWeight:"bolder",fontSize:70}}>Sobre a Lumni</div>
-                  <div style={{marginTop:45,color:"white",fontSize:30}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate solicitudin tellus, in interdum sem facilisis ut. Fusce sit amet orci ipsum. Etiam eget convallis mauris. Proin id gravida im. Aenean mollis leo ut eros suscipit malesuada. Sed quis augue et valit facilisis semper a nec dolor. Integer consectetur tellus vel lacus fermentum,</div>
+                  <div style={{marginTop:45,color:"white",fontSize:30}}>A Lumni é um studio gaúcho de design gráfico que busca guiar empresas para o sucesso. Contamos com profissionais de diferentes áreas para atender a sua necessidade e oferecer um serviço único de qualidade.</div>
                   </div>
               </div>
           </div>
