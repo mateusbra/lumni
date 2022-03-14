@@ -4,6 +4,11 @@ import Logo from "../assets/logo.png";
 
 function Navbar(){
     //b
+<<<<<<< HEAD
+=======
+    //c
+    //d
+>>>>>>> refs/rewritten/main
     return(
         <div style={styles.containerNavBar}>
             <div style={{marginLeft:"7%"}}>
