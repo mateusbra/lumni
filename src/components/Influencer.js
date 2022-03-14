@@ -9,7 +9,7 @@ function Influencer(){
             <div style={{marginTop:100,marginLeft:70}}>
                 <div style={{color:"#07091d",fontWeight:"bolder",fontSize:70}}>Pacotes para Influenciadores</div>
                 <div style={{marginTop:45,color:"white",fontSize:30,maxWidth:520}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate solicitudin tellus, in interdum sem facilisis ut. Fusce sit amet orci ipsum.</div>
-                <button style={{...styles.homeButton,marginTop:30}}>VAMOS COMEÇAR</button>
+                <button style={{...styles.homeButton,marginTop:30}}>FAÇA SEU ORÇAMENTO</button>
             </div>
                 <img src={influencer} alt={"Influencer"} style={{height:728,width:728,float:"right"}} />
             </div>

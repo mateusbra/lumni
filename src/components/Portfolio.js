@@ -19,7 +19,7 @@ function Portfolio(){
                     </div>
                 </div>
             </div>
-            <button style={{...styles.homeButton,fontWeight:"bolder",padding:"5px 28px",backgroundColor:styles.colors.orange,borderStyle:"none",margin:"32px auto",display:"flex"}}>VER TODO O PORTFÓLIO</button>
+                <button onClick={() => {window.location.href = "https://www.behance.net/studiolumni"}} style={{...styles.homeButton,fontWeight:"bolder",padding:"5px 28px",backgroundColor:styles.colors.orange,borderStyle:"none",margin:"32px auto",display:"flex"}}>VER TODO O PORTFÓLIO</button>
         </div>
     );
 }
