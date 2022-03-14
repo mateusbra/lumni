@@ -12,8 +12,7 @@ function LightHouse(){
                   <div style={{color:styles.colors.orange,fontSize:70,fontFamily:"FFGoodPro-Bold"}}>CRIATIVIDADE TRANSFORMA SUA EMPRESA</div>
                   <button style={{...styles.homeButton,marginTop:80}}>VAMOS COMEÇAR</button>
                 </div>
-              </div>
-                
+              </div> 
           </div>
       </div>
     </div>

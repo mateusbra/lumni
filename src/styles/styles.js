@@ -60,10 +60,11 @@ const styles = {
     aboutContainer: {
         margin:"auto",
         display:"block",
-        height:768,
+        height:850,
         width:"100%",
-        backgroundSize:"100% 768px",
+        backgroundSize:"cover",
         backgroundRepeat: "no-repeat",
+        backgroundPosition:"center center",
     }
 };
 

@@ -15,3 +15,10 @@ html {
   src: url('fonts/FFGoodPro-Medium.ttf') format('truetype');
 
 }
+
+@font-face {
+
+  font-family: 'FFGoodPro-Regular' ;
+  src: url('fonts/FFGoodPro-Regular.ttf') format('truetype');
+
+}
