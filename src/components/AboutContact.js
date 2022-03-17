@@ -6,7 +6,7 @@ import styles from "../styles/styles";
 
 function About(){
   let navigate = useNavigate();
-      const changeToContact = () =>{ 
+      const changeToHome = () =>{ 
           let path = `/`; 
           navigate(path);
       }
