@@ -1,14 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Sobre from "../assets/sobre.png";
 import styles from "../styles/styles";
 
+
 function About(){
 
-        let navigate = useNavigate();
-        const changeToContact = () =>{ 
-            let path = `contato`; 
-            navigate(path);
-        }
+    let navigate = useNavigate();
+    const changeToContact = () =>{ 
+        let path = `contato`; 
+        navigate(path);
+    }
 
     return(
       <div style={{width:"100%",height:768,backgroundColor:"#000f40"}}>
