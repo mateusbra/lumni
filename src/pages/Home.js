@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 //import styles from "../styles/styles";
 //import Category from "../components/Category";
 //import texts from "../texts/texts";
@@ -16,6 +16,9 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 
 function Home() {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+},[]);
   return (
     <>
       <Navbar />

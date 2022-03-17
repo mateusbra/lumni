@@ -1,8 +1,17 @@
 import React from "react";
 import personalizados from "../assets/personalizados.png";
 import styles from "../styles/styles";
+import { useNavigate } from "react-router-dom";
 
 function Custom(){
+
+        let navigate = useNavigate();
+        const changeToContact = () =>{ 
+            let path = `contato`; 
+            navigate(path);
+        }
+
+
     return(
         <div style={{display:"flex",alignItems:"center",justifyContent:"center",width:"100%",backgroundColor:"#f56944"}}>
             <div style={{display:"inline-flex",width:1366,height:728}}>
@@ -10,7 +19,7 @@ function Custom(){
             <div style={{marginTop:100,marginRight:70}}>
                 <div style={{color:"#07091d",fontWeight:"bolder",fontSize:70,fontFamily:"FFGoodPro-Bold"}}>Personalizados</div>
                 <div style={{marginTop:45,color:"white",fontSize:30,maxWidth:520,fontFamily:"FFGoodPro-Regular"}}>Já possui um projeto em andamento ou deseja criar algo totalmente novo? Conte-nos um pouco mais! Estamos aqui para tornar seus objetivos em realidade.</div>
-                <button style={{...styles.homeButton,marginTop:30}}>FAÇA SEU ORÇAMENTO</button>
+                <button onClick={changeToContact} style={{...styles.homeButton,marginTop:30}}>FAÇA SEU ORÇAMENTO</button>
               </div>
             </div>
     </div>

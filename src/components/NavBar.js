@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/styles";
 import Logo from "../assets/logo.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar(){
     //b
@@ -15,10 +15,10 @@ function Navbar(){
                 </a>
             </div>
             <div style={{marginRight:"7%"}}>
-                <a href="#Home" style={styles.linkNavBar}>Home</a>
+                <NavLink style={styles.linkNavBar} to="/">Home</NavLink>
                 <a href="#Servicos" style={styles.linkNavBar}>Serviços</a>
                 <a href="#Portfolio" style={styles.linkNavBar}>Portfólio</a>
-                <Link style={styles.linkNavBar} to="contato">Contato</Link>
+                <NavLink style={styles.linkNavBar} to="/contato">Contato</NavLink>
                 {/*<a href="#Loja" style={styles.linkNavBar}>Loja</a>*/}
             </div>
         </div>
