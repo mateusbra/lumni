@@ -8,7 +8,7 @@ function Instagram(){
       <div style={{width:"100%",height:768,backgroundColor:"#000f40",backgroundImage:`url(${Fundo})`}}>   
         <div style={{...styles.lightHouseContainer,alignSelf:"center"}}>
               <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-                  <div style={{color:styles.colors.orange,fontWeight:900,fontSize:70,marginTop:50}}>Nos acompanhe no Instagram</div>
+                  <div style={{color:styles.colors.orange,fontWeight:900,fontSize:70,marginTop:50}}>Acompanhe-nos no Instagram</div>
                   <div style={{marginTop:30,color:"white",fontSize:50}}>e fique por dentro do mundo do marketing digital</div>
                   <div style={{marginTop:100,display:"flex",flexDirection:"row"}}>
                     <div style={{height:300,width:350,marginRight:50}}>
