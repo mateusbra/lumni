@@ -4,7 +4,7 @@ import Logo from "../assets/logo.png";
 
 function Footer(){
     return(
-        <div style={styles.containerNavBar}>
+        <div style={styles.containerFooter}>
             <div style={{marginLeft:"7%"}}>
                 <a href={"/"} >
                     <img style={{height:45}} src={Logo} alt={"Logo"}/>

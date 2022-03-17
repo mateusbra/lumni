@@ -31,7 +31,6 @@ function Home() {
       <Custom />
       <Portfolio />
       <About />
-      <Instagram />
       <Footer />
     </>
   );
