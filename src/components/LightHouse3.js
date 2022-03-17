@@ -8,7 +8,8 @@ function LightHouse3(){
         <div style={{...styles.lightHouseContainer,backgroundImage:`url(${Lighthouse3})`,backgroundSize:"cover"}}>
             <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
                 <div style={{marginTop:100,maxWidth:1040}}>
-                    <div style={{color:"white",textAlign:"center",fontSize:30,fontFamily:"FFGoodPro-Regular"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate solicitudin tellus, in interdum sem facilisis ut. Fusce sit amet orci ipsum. Etiam eget convallis mauris. Proin id gravida im. Aenean mollis leo ut eros suscipit malesuada. Sed quis augue et valit facilisis semper a nec dolor. Integer</div>
+                    <div style={{color:"white",textAlign:"center",fontSize:30,fontFamily:"FFGoodPro-Regular"}}>Beleza, mas o que são esses investimentos no digital e como saber onde minha empresa se encaixa?
+                    Conheça nossos serviços abaixo, ou se preferir, entre em contato conosco para marcarmos uma reunião!</div>
                 </div>
             </div>
         </div>

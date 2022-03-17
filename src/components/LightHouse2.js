@@ -11,7 +11,7 @@ function LightHouse2(){
                 <div style={{marginTop:100,maxWidth:740}}>
                   <div style={{color:styles.colors.orange,fontWeight:900,fontSize:70,fontFamily:"FFGoodPro-Bold"}}>Digitalize seu negócio</div>
                   <div style={{color:"white",fontWeight:"bolder",fontSize:43,fontFamily:"FFGoodPro-Medium"}}>e veja os resultados acontecerem</div>
-                  <div style={{marginTop:45,color:"white",fontSize:30,fontFamily:"FFGoodPro-Regular"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate solicitudin tellus, in interdum sem facilisis ut. Fusce sit amet orci ipsum. Etiam eget convallis mauris. Proin id gravida im. Aenean mollis leo ut eros suscipit malesuada. Sed quis augue et valit facilisis semper a nec dolor. Integer consectetur tellus</div>
+                  <div style={{marginTop:45,color:"white",fontSize:30,fontFamily:"FFGoodPro-Regular"}}>O meio digital cresce a cada dia, sendo imprescindível a presença das empresas nesse universo. Negócios de sucesso investiram no digital e se tornaram grandes nomes no mercado.</div>
                 </div>
               </div>
           </div>
