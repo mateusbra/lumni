@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 //import styles from "../styles/styles";
 //import Category from "../components/Category";
 //import texts from "../texts/texts";
