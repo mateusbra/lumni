@@ -32,7 +32,7 @@ const styles = {
         display:"flex",
         alignItems:"center",
         width:"100%",
-        height:70,
+        height:90,
         justifyContent:"space-between",
     },
     linkNavBar: {
@@ -80,6 +80,15 @@ const styles = {
         transition: "all 0.3s ease",
         color: "white",
         fontSize: 20,
+    },
+    socialMediaBarContact: {
+        display: "block",
+        textAlign: "center",
+        padding: 16,
+        margin:21,
+        transition: "all 0.3s ease",
+        color: "white",
+        fontSize: 80,
     }
 };
 

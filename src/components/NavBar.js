@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/styles";
 import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 function Navbar(){
     //b
@@ -17,7 +18,7 @@ function Navbar(){
                 <a href="#Home" style={styles.linkNavBar}>Home</a>
                 <a href="#Servicos" style={styles.linkNavBar}>Serviços</a>
                 <a href="#Portfolio" style={styles.linkNavBar}>Portfólio</a>
-                <a href="#Contato" style={styles.linkNavBar}>Contato</a>
+                <Link style={styles.linkNavBar} to="contato">Contato</Link>
                 {/*<a href="#Loja" style={styles.linkNavBar}>Loja</a>*/}
             </div>
         </div>
