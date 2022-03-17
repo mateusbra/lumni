@@ -12,13 +12,10 @@ import Influencer from "../components/Influencer";
 import Custom from "../components/Custom";
 import Portfolio from "../components/Portfolio";
 import About from "../components/About";
-import Instagram from "../components/Instagram";
+//import Instagram from "../components/Instagram";
 import Footer from "../components/Footer";
 
 function Home() {
-  useEffect(()=>{
-    console.log(window.innerWidth);
-  },[])
   return (
     <>
       <Navbar />
