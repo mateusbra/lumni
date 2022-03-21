@@ -18,7 +18,7 @@ function About(){
                 <div style={{marginTop:100,maxWidth:700}}>
                   <div style={{color:"#07091d",fontWeight:"bolder",fontSize:70,fontFamily:"FFGoodPro-Bold"}}>Sobre a Lumni</div>
                   <div style={{marginTop:45,color:"white",fontSize:30,fontFamily:"FFGoodPro-Regular"}}>A Lumni é um studio gaúcho de design gráfico que busca guiar empresas para o sucesso. Contamos com profissionais de diferentes áreas para atender a sua necessidade e oferecer um serviço único de qualidade.</div>
-                  <button onClick={changeToHome} style={{...styles.homeButton,display:"flex",margin:"100px auto 0"}}>CONHEÇA NOSSOS SERVIÇOS</button>
+                  <button className="click" onClick={changeToHome} style={{...styles.homeButton,display:"flex",marginTop:"100px"}}>CONHEÇA NOSSOS SERVIÇOS</button>
                   </div>
               </div>
           </div>

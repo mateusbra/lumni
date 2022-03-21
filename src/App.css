@@ -22,3 +22,7 @@ html {
   src: url('fonts/FFGoodPro-Regular.ttf') format('truetype');
 
 }
+
+.click:hover {
+    opacity: 0.3;
+}

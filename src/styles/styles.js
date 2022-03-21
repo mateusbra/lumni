@@ -17,6 +17,9 @@ const styles = {
         gray:"#3F3F3F",
     },
     containerNavBar: {
+        position:"fixed",
+        left: 0,
+        top: 0,
         backgroundColor:"white",
         display:"flex",
         alignItems:"center",
@@ -25,9 +28,6 @@ const styles = {
         justifyContent:"space-between",
     },
     containerFooter: {
-        position: "fixed",
-        left: 0,
-        bottom: 0,
         backgroundColor:"white",
         display:"flex",
         alignItems:"center",
@@ -56,7 +56,7 @@ const styles = {
         color:"#07091d",
         padding:"9px 28px",
         borderStyle:"solid",
-        fontFamily:"FFGoodPro-Regular",
+        fontFamily:"FFGoodPro-Bold",
     },
     lightHouseContainer: {
         margin:"auto",

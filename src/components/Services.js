@@ -17,7 +17,7 @@ function Services(){
             <div style={{marginTop:100,marginLeft:70}}>
                 <div style={{color:"#07091d",fontWeight:"bolder",fontSize:70,fontFamily:"FFGoodPro-Bold"}}>Identidade Visual</div>
                 <div style={{marginTop:45,color:"white",fontSize:30,maxWidth:520,fontFamily:"FFGoodPro-Regular",}}>Assim como as pessoas, empresas possuem uma aparência própria, uma cara que serve como sua apresentação aos clientes. A identidade visual é essencial para aqueles que desejam se destacar no mundo do marketing.</div>
-                <button onClick={changeToContact} style={{...styles.homeButton,marginTop:30}}>FAÇA SEU ORÇAMENTO</button>
+                <button className="click" onClick={changeToContact} style={{...styles.homeButton,marginTop:30}}>FAÇA SEU ORÇAMENTO</button>
             </div>
                 <img src={idVisual} alt={"Identidade Visual"} style={{height:728,width:728,float:"right"}} />
             </div>
